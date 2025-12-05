@@ -24,7 +24,7 @@
 </head>
 <body class="min-h-screen flex items-center justify-center p-4">
 
-    <div id="app-container" class="w-full max-w-lg bg-gray-900 border border-purple-800 p-8 md:p-10 rounded-xl shadow-2xl transition duration-300 hover:shadow-purple-500/50">
+    <div id="app-container" class="w-full max-w-lg bg-gray-900 border border-gray-300 p-8 md:p-10 rounded-xl shadow-2xl transition duration-300 hover:shadow-gray-300/50">
         <h1 class="text-3xl md:text-4xl font-extrabold text-white text-center mb-6 tracking-tight">
             Random Site Project
         </h1>
@@ -36,14 +36,14 @@
         <button 
             id="random-button"
             onclick="redirectToRandomSite()"
-            class="w-full py-4 text-lg font-bold text-white bg-purple-600 rounded-lg shadow-lg hover:bg-purple-700 transition duration-300 transform hover:scale-[1.01] focus:outline-none focus:ring-4 focus:ring-purple-500 focus:ring-opacity-50 active:bg-purple-800 disabled:opacity-50 disabled:cursor-not-allowed"
+            class="w-full py-4 text-lg font-bold text-white bg-white/10 border border-white/20 rounded-lg shadow-lg hover:bg-white/20 transition duration-300 transform hover:scale-[1.01] focus:outline-none focus:ring-4 focus:ring-white/40 active:bg-white/30 disabled:opacity-50 disabled:cursor-not-allowed"
             disabled
         >
             Random Site
         </button>
 
         <div id="message-box" class="mt-8 p-4 bg-gray-800 rounded-lg">
-            <p id="message-text" class="text-sm text-purple-400 text-center">Loading links...</p>
+            <p id="message-text" class="text-sm text-gray-200 text-center">Loading links...</p>
         </div>
     </div>
 
@@ -58,14 +58,14 @@
             messageBox.classList.remove('hidden');
 
             messageBox.classList.remove('bg-red-900', 'border', 'border-red-700', 'bg-gray-800');
-            messageText.classList.remove('text-red-300', 'text-purple-400');
+            messageText.classList.remove('text-red-300', 'text-gray-200');
             
             if (isError) {
                 messageBox.classList.add('bg-red-900', 'border', 'border-red-700');
                 messageText.classList.add('text-red-300');
             } else {
                 messageBox.classList.add('bg-gray-800');
-                messageText.classList.add('text-purple-400');
+                messageText.classList.add('text-gray-200');
             }
         }
 
