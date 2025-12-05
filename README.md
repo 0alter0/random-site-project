@@ -12,7 +12,9 @@ All links are publically avalible, if you want your own down, make an issue and 
 I made this because there hasn't been a true **universal** website generator. Most are just people who have a bunch of projects they put into a "generator."
 This is truely the closest thing I can think off, it doesn't cost money and is easy. I will update in batches of links, usually 1k-5k more every time.
 
-# Sidenots:
+# Sidenotes:
 After every update, you most likely have to clear your cache for your browser to load in the new links.
+
+If you still can't see new links, GitHub is most likely still uploading, as I've noticed that it can take up to 10 mins to upload thousands of new links.
 
 # SITE: https://0alter0.github.io/random-site-project/
