@@ -15,6 +15,6 @@ This is truely the closest thing I can think off, it doesn't cost money and is e
 # Sidenotes:
 After every update, you most likely have to clear your cache for your browser to load in the new links.
 
-If you still can't see new links, GitHub is most likely still uploading, as I've noticed that it can take up to 10 mins to upload thousands of new links.
+I'm also the only person working on this, so development will be slow. If you'd like to help, make a crawler (I recommend scrapy, which is Python) and make an issue with the list of links.
 
 # SITE: https://0alter0.github.io/random-site-project/
